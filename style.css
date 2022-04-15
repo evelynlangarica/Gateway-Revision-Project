@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+}
+
+nav {
+    background: black;
+    height: 80px;
+    width: 100;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+/*start new code */
+body {
+    margin: 0;
+    color: white;
+    font-family: "Lucida Console", Monospace;
+    background-color: teal;
+}
+
+.background {
+    background-image: url('https://media.tacdn.com/media/attractions-splice-spp-674x446/07/90/c5/3f.jpg');
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-repeat: no repeat;
+}
+
+
+
+.backgroundcontact {
+    background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F21%2F2019%2F04%2Fscreen-shot-2019-04-08-at-10.02.12-am.png');
+    width: 100%;
+    height: 600px;
+    background-position: center;
+
+
+}
+
+
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: "Lucida Console", Monospace;
+}
+
+/*provide two font options in case one not supported*/
+
+
+
+p {
+    font-family: Monaco, Monospace;
+    color: white;
+    text-align: center;
+}
+
+/*font in paragraphs for my activity page*/
+.actdiv {
+    font-size: 25px;
+}
+
+/* img in About page*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Style the activity image with the class name "imgact */
+.imgact {
+    display: block;
+    /*margin auto will take up available space*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 500%;
+}
+
+/* Contact page format*/
+form {
+    display: inline- block;
+    /*will help keep my boxes directly under one another*/
+    padding: 6px 6px;
+    text-align: center;
+    width: 200px;
+    vertical-align: top;
+    border: 9px solid;
+    background-color: black;
+    margin-left: 600px;
+}
